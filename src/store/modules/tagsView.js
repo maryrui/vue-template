@@ -5,6 +5,7 @@ const tagsView = {
   },
   mutations: {
     ADD_VISITED_VIEWS: (state, view) => {
+      //判断标签visiteViews 是否有新点击的路由路径 有就return
       if (state.visitedViews.some(v => v.path === view.path)) return
       state.visitedViews.push({
         name: view.name,

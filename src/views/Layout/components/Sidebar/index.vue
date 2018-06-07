@@ -31,6 +31,3 @@
     }
 </script>
 
-<style scoped rel="stylesheet/scss" lang="scss">
-
-</style>

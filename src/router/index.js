@@ -16,7 +16,7 @@ export const constantRouterMap=[
             path:"home",
             component:_import('home/index'),
             name:"home",
-            meta:{title:"首页",icon:"example",nocache:true}
+            meta:{title:"首页展示",icon:"example",nocache:true}
         }]
     }
 ]
